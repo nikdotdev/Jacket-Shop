@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#nav i{
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#center{
+    padding: 40px 50px;
+    width: 100%;
+    /* background-color: blue; */
+
+}
+
+#center h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+
+#center-in{
+    /* width: 100%; */
+    /* background-color: aqua; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem{
+    /* margin: 5px; */
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: chartreuse; */
+}
+
+.elem a{
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.elem i{
+    /* background-color: aqua; */
+    font-size: 20px;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    /* background-color: rgb(111, 109, 109); */
+    text-decoration: underline;
+}
+
+#bottom{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 35%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668319914124-57301e0a1850?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+
+
